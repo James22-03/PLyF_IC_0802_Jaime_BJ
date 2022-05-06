@@ -5,9 +5,6 @@ public class Principal {
     }
     private static Cal_Int engine(){
         return (x, y) -> x * y;
-        /*int x=2,y=4;
-        CalculadoraLong resultado = cal.calcular(x,y);
-        System.out.println(resultado.calcular((long)x, (long)y));*/
     }
     private static void engine(CalculadoraInt cal){
         int x=2,y=4;
